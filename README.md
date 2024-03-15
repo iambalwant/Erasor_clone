@@ -8,6 +8,24 @@ to run appilcation :
 for backend convex : npx convex dev
 for frontend Next.js 14 : npm run dev
 
+and then create erasor.io 
+.env.local file
+and then add:
+
+KINDE_CLIENT_ID=
+KINDE_CLIENT_SECRET=
+KINDE_ISSUER_URL=
+
+KINDE_SITE_URL=
+KINDE_POST_LOGOUT_REDIRECT_URL=
+KINDE_POST_LOGIN_REDIRECT_URL=
+
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=dev:hip-ptarmigan-5 # team: iambalwant, project: eraser-io-clone-15766
+
+NEXT_PUBLIC_CONVEX_URL=https://hip-ptarmigan-5.convex.cloud
+
+
 ```bash
 npm run dev
 # or
