@@ -4,6 +4,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+to run appilcation :
+for backend convex : npx convex dev
+for frontend Next.js 14 : npm run dev
+
 ```bash
 npm run dev
 # or
